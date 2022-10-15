@@ -29,7 +29,7 @@ BST* InsertNode(int data, BST* tree){
 	}
 	
 	else{
-		if(tree->kanan == NULL||  tree->kanan->data > data){
+		if(tree->kanan == NULL ||  tree->kanan->data > data){
 			cout<<" ";
 			tree->kanan = InsertNode(data, tree->kanan);
 		}
